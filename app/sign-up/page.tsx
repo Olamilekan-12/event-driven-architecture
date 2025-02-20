@@ -26,8 +26,8 @@ const SignUp = () => {
   const [code, setCode] = useState("");
   const [error, setError] = useState("");
   const [showPassword, setShowPassword] = useState(false);
-
   const router = useRouter();
+
   if (!isLoaded) {
     return null;
   }
@@ -82,7 +82,7 @@ const SignUp = () => {
       <Card className="w-full max-w-md">
         <CardHeader>
           <CardTitle className="text-2xl font-bold text-center">
-            Sign Up for Todo Master
+            Sign up
           </CardTitle>
         </CardHeader>
         <CardContent>
